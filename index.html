@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div class="mainbody">
+    <div class="header">
+        <p>MyShop Website</p>
+    </div>
+    <div class="center">
+        <div class="left">
+            <ul>
+                <li id="mycat">Category</li>
+                <li><button onclick="filterdata('mobile')">Mobile</button></li>
+                <li><button onclick="filterdata('shirt')">Shirt</button></li>
+                <li><button onclick="filterdata('watch')">Watch</button></li>
+            </ul>
+            <ul>
+                <li id="mycat">Sub-Category mobile</li>
+                <li><button onclick="filterdata('mobile','lg')">Lg</button></li>
+                <li><button onclick="filterdata('mobile','samsung')">samsung</button></li>
+                <li><button onclick="filterdata('mobile','nokia')">nokia</button></li>
+            </ul>
+            <!-- <ul>
+                <li id="mycat">Category</li>
+                <li><button onclick="catfilter('mobile')">Mobile</button></li>
+                <li><button onclick="catfilter('shirt')">Shirt</button></li>
+                <li><button onclick="catfilter('watch')">Watch</button></li>
+            </ul>
+            <ul>
+                <li id="mycat">Sub-Category mobile</li>
+                <li><button onclick="subcatfilter('mobile','lg')">Lg</button></li>
+                <li><button onclick="subcatfilter('mobile','samsung')">samsung</button></li>
+                <li><button onclick="subcatfilter('mobile','nokia')">nokia</button></li>
+            </ul> -->
+        </div>
+        <div class="right">
+            <div class="prow" id="myrow">
+
+            </div>
+        </div>
+    </div>
+   </div>
+    
+
+
+
+
+    <script src="js/result.js"></script>
+</body>
+</html>

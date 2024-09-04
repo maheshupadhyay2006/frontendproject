@@ -1,0 +1,22 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+.header{background: blue; color: white; text-align: center; font-size: 4vw;
+padding: 40px;
+}
+.center{
+    display: grid;
+    grid-template-columns: 25% auto;
+    
+}
+.left ul{list-style: none;}
+.left li{width: 100%; margin-top:2px; text-align: center; }
+.left li button{width: 100%; padding: 15px 0px; border: none;}
+.left #mycat{background: blue; color: white; padding: 15px 0px;}
+.prow{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+}
+.product{border: 1px solid blue;}
+.product img{height: auto; max-width: 100%;}
+.content{padding: 12px; text-align: justify; line-height: 30px;}
+.content button{padding: 9px 12px; background: orange;}
